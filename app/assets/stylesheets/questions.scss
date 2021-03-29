@@ -1,0 +1,53 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  border-left: 4px #DDDDDD solid;
+  padding: 12px;
+  margin: 12px;
+
+  p {
+    margin-left: 10px;
+  }
+
+  .sender {
+    font-style: italic;
+  }
+}
+
+.answer {
+  border-left: 4px #DDDDDD solid;
+  background-color: #FEFFE1;
+  padding: 12px;
+  margin: 12px;
+
+  p {
+    margin-left: 10px;
+  }
+
+  .coach-answer {
+    font-weight: bold;
+  }
+
+  .sender {
+    font-style: italic;
+  }
+}
+
+a {
+  margin: 12px;
+  text-decoration: none;
+  color: #518DC7;
+}
+
+
+
